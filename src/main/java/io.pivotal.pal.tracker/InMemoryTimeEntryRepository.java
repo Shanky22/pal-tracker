@@ -41,7 +41,7 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository{
                 timeEntry.getDate(),
                 timeEntry.getHours()
         );
-        inMemoryDB.put(id,updatedEntry);
+        inMemoryDB.replace(id,updatedEntry);
         return updatedEntry;
     }
 
