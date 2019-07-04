@@ -1,7 +1,6 @@
 package io.pivotal.pal.tracker;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
